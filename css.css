@@ -1,0 +1,191 @@
+/*barra de navegacion*/
+.menu 
+{
+
+height: 60px;
+background-color: black;
+
+}
+.menu img
+{
+    margin-left: 50%;
+    height: 80px;
+   
+}
+/*slider*/
+.slider
+{
+width: 100%;
+margin:auto;
+overflow: hidden;
+}
+
+.slider ul
+{
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: cambio 20s infinite;
+}
+
+.slider li
+{
+  
+    width:100% ;
+    list-style: none;
+    
+}
+.slider img
+{
+    width: 100%;
+}
+
+@keyframes cambio
+{
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}
+
+
+.Imagen5 
+{
+  
+   position: relative;
+   display: inline-block;
+   text-align: center;
+   overflow: hidden;
+   transition: all 500ms ease;
+
+}
+
+.Imagen6
+{
+  
+   position: relative;
+   display: inline-block;
+   text-align: center;
+   overflow: hidden;
+  transition: all 500ms ease;
+  
+}
+/*imagen 7 y 8*/
+.Imagen7y8 ul
+{
+    display: flex;
+    padding: 0;
+   
+}
+
+.Imagen7y8 li
+{
+  
+    width:100% ;
+    list-style: none;
+    
+}
+.Imagen7y8 img
+{
+    width: 100%;
+    height: 100%;
+}
+.Imagen9
+{
+    margin: 0%;
+    padding: 0%;
+   position: relative;
+   display: inline-block;
+   text-align: center;
+   overflow: hidden;
+  transition: all 500ms ease;
+  
+}
+/*Imagen 10 11 12*/
+.Imagenes10_11_12 ul
+{
+    display: flex;
+    padding: 0;
+   
+}
+
+.Imagenes10_11_12 li
+{
+  
+    width:100% ;
+    list-style: none;
+    
+}
+.Imagenes10_11_12 img
+{
+    width: 100%;
+    height: 100%;
+}
+
+/*centrar texto sobre imagen*/
+.centrado{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-family:  "proxima-nova",sans-serif;
+   font-size: 50px;
+   color: white;
+
+
+}
+
+/*imagen con zoom*/
+.zoom img:hover
+{
+
+transform: scale(1.2);
+
+}
+
+/*Pie de pagina*/
+.pie_pagina
+{
+
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    color: white;
+    font-size:12px;
+   
+}
+
+.pie_pagina ul
+{
+   padding: 0%;
+    display: flex;
+}
+.pie_pagina li
+{
+    padding: 10px;
+    list-style: none;
+    
+}
+
+
+
+.pie_pagina img
+{
+    position: absolute;
+    height: 80px;
+    left: 50%;
+  
+}
+body
+{
+    background-color: black;
+    
+
+}
